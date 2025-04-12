@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
 
-## Project info
+# University Admin Panel
 
-**URL**: https://lovable.dev/projects/0a4260e4-3afb-4396-8f9a-a4ae493cbd89
+A clean, beginner-friendly Angular 19 CRUD application for managing university students and professors.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Dashboard with statistics and quick access to records
+- Student management (list, view, add, edit, delete)
+- Professor management (list, view, add, edit, delete)
+- Responsive design that works on all devices
 
-**Use Lovable**
+## Project Setup
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0a4260e4-3afb-4396-8f9a-a4ae493cbd89) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js and npm installed
+- Angular CLI installed globally
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```cmd
+REM Install Angular CLI globally if not already installed
+npm install -g @angular/cli
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+REM Clone the repository (or download the zip file)
+git clone <repository-url>
+cd university-admin
 
-Follow these steps:
+REM Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+REM Start the development server
+ng serve
 ```
 
-**Edit a file directly in GitHub**
+### Angular CLI Commands (Windows CMD)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```cmd
+REM Generate a new component
+ng generate component components/new-component
 
-**Use GitHub Codespaces**
+REM Generate a new service
+ng generate service services/new-service
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+REM Build the application for production
+ng build --configuration=production
 
-## What technologies are used for this project?
+REM Run unit tests
+ng test
+```
 
-This project is built with:
+## Architecture
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The application follows a clean, modular Angular architecture:
 
-## How can I deploy this project?
+- **Components**: UI elements organized by feature
+- **Services**: Handle data operations and business logic
+- **Models**: Define data structures
+- **Lazy Loading**: Routes are lazy-loaded for better performance
 
-Simply open [Lovable](https://lovable.dev/projects/0a4260e4-3afb-4396-8f9a-a4ae493cbd89) and click on Share -> Publish.
+## Design
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The application uses:
+- Tailwind CSS for styling
+- A clean, minimal UI focused on usability
+- Mobile-responsive design
