@@ -62,6 +62,6 @@ The application follows a clean, modular Angular architecture:
 ## Design
 
 The application uses:
-- Tailwind CSS for styling
-- A clean, minimal UI focused on usability
-- Mobile-responsive design
+- Tailwind CSS for styling.
+- A clean, minimal UI focused on usability.
+- Mobile-responsive design.
