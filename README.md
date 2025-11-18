@@ -1,7 +1,7 @@
 
 # University Admin Panel
 
-A clean, beginner-friendly Angular 19 CRUD application for managing university students and professors.
+A clean, beginner-friendly CRUD application for managing university students and professors.
 
 ## Features
 
